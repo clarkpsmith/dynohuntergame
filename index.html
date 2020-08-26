@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DYNOHUNTER</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <audio class="audiosrc1" src="323.mp3" hidden></audio>
+    <audio class="audiosrc2" src="Vela.mp3" hidden></audio>
+    <audio class="audiosrc3" src="Archipelago.mp3" hidden></audio>
+    <audio class="gameover" src="Gameover.mp3" hidden></audio>
+    <audio class="deflate" src="Deflate.mp3" hidden></audio>
+    <audio class="swoosh" src="Missile.mp3" hidden></audio>
+    <audio class="youwin" src="Youwin.mp3" hidden></audio>
+    <audio class="grazing" src="dyno-eating.mp3" hidden></audio>
+    <audio class="grunt" src="dynogrunt.mp3" hidden></audio>
+    <div class="levelsbtns">
+      <button class="beginner levelsbtn" onClick="Beginner()">Beginner</button>
+
+      <button class="intermediate levelsbtn" onClick="Intermediate()">
+        Intermediate
+      </button>
+      <button class="advanced levelsbtn" onClick="Advanced()">
+        Advanced
+      </button>
+    </div>
+    <div class="scorecontainer">
+      <div class="score">Score 0</div>
+    </div>
+    <h1>DYNOHUNTER</h1>
+
+    <p class="secondsLeft">Seconds Left</p>
+
+    <button class="startbtn" onClick="startGame()">Start!</button>
+
+    <div class="game">
+      <div class="hole hole1">
+        <div class="dyno dyno1"></div>
+      </div>
+      <div class="hole hole2">
+        <div class="dyno dyno2"></div>
+      </div>
+      <div class="hole hole3">
+        <div class="dyno dyno3"></div>
+      </div>
+      <div class="hole hole4">
+        <div class="dyno dyno4"></div>
+      </div>
+      <div class="hole hole5">
+        <div class="dyno dyno5"></div>
+      </div>
+      <div class="hole hole6">
+        <div class="dyno dyno6"></div>
+      </div>
+    </div>
+      <script src="script.js">
+    </script>
+  </body>
+</html>
